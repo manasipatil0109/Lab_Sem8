@@ -1,0 +1,9 @@
+
+module URLReaderApp
+{
+  interface URLReader
+  {
+    long urlbytes(in string url);
+    oneway void shutdown();
+  };
+};
